@@ -42,7 +42,10 @@ pip install oauth2
 ```bash
 py twitterstream.py > "filename".txt
 ``` 
-
+8) To get top "num" number of lines from the file use:
+```bash
+head -n "num" "filename1".txt > "filename2".txt
+```
 
 ## Running the code
 
